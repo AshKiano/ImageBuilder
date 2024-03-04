@@ -1,0 +1,8 @@
+name: ImageBuilder
+version: '${project.version}'
+main: com.ashkiano.imagebuilder.ImageBuilder
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  buildimage:
+    description: Builds an image from a URL.
