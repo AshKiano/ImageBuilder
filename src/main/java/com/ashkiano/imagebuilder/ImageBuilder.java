@@ -26,7 +26,7 @@ public class ImageBuilder extends JavaPlugin implements CommandExecutor {
         saveDefaultConfig(); // Uloží defaultní config.yml, pokud neexistuje
         initializeColorBlockMap(); // Načte mapování z config.yml
         this.getCommand("buildimage").setExecutor(this);
-        getLogger().info("ImageBuilder by AshKiano has been enabled!");
+        this.getLogger().info("Thank you for using the ImageBuilder plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
         Metrics metrics = new Metrics(this, 21156);
     }
 
